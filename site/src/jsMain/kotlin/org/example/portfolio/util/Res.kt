@@ -34,7 +34,7 @@ object Res {
 
     object String {
         const val NAME = "Rajat Jain"
-        const val PROFESSION = "App Developer"
+        const val PROFESSION = "Mobile App Developer"
         const val ABOUT_ME =
             "Hi, I'm Rajat Jain — a passionate developer driven by curiosity and a love for clean, efficient code. I specialize in Android development and backend systems, always eager to build seamless, user-focused digital experiences. I actively mentor others as part of a tech community, sharing my knowledge in DSA and Android development. Beyond coding, I enjoy exploring new tools, learning cutting-edge tech, and contributing to meaningful projects."
         const val BUTTON_TEXT = "Get in touch"

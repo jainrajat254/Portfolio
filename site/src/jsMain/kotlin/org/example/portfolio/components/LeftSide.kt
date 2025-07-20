@@ -33,7 +33,9 @@ fun LeftSide(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(all = 50.px),
+            .padding(
+                if (breakpoint <= Breakpoint.SM) 20.px else 50.px
+            ),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = if (breakpoint <= Breakpoint.SM)
             Alignment.CenterHorizontally else Alignment.Start
